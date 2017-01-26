@@ -52,8 +52,8 @@ const factory = (Overlay) => {
     children: PropTypes.node,
     className: PropTypes.string,
     insideTree: PropTypes.bool,
-    onOverlayClick: PropTypes.func,
     onEscKeyDown: PropTypes.func,
+    onOverlayClick: PropTypes.func,
     theme: PropTypes.shape({
       active: PropTypes.string,
       drawer: PropTypes.string,
